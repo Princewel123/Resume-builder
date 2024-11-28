@@ -1,0 +1,66 @@
+{
+  "name": "Princewel Sanjao Manbhat",
+  "oneLineDescription": "To be expert in the practical field through commitment, perseverance and continuous improvement.",
+  "skillset": [
+    { "title": "React", "proficiency": "2/3" },
+    { "title": "JavaScript", "proficiency": "2/3" },
+    { "title": "TypeScript", "proficiency": "3" },
+    { "title": "HTML", "proficiency": "2/3" },
+    { "title": "CSS", "proficiency": "2/3" }
+  ],
+  "softskills": [
+    { "title": "Team Work" },
+    { "title": "Honesty" },
+    { "title": "Willingness To Learn" },
+    { "title": "Hard work" }
+  ],
+  "experiences": [
+    {
+      "id": 1,
+      "role": "Web Developer",
+      "location": "Virar",
+      "workStyle": "Hybrid",
+      "jobType": "Full-time",
+      "responsibilities": [
+        "Assisting in designing, coding, testing, and debugging software applications. ",
+        "Collaborating with senior developers to enhance your technical skills and contribute to project success. ",
+        "Participating in code reviews to ensure code quality and adherence to best practices. ",
+        "Learning and implementing the latest technologies and development methodologies. ",
+        "Working on assigned projects with dedication and enthusiasm."
+      ],
+      "company": "Niyoshi Solution Pvt. Ltd"
+    }
+  ],
+  "education": [
+    {
+      "title": "St. Francis Institute of Technology (Degree)",
+      "university": "Mumbai University",
+      "branch": "Information Technology",
+      "activities": ["", ""],
+      "link": ""
+    }
+  ],
+  "certifications": [{ "title": "", "other": "AWS", "expiry": "", "link": "" }],
+  "publications": [{ "title": "", "other": "", "expiry": "", "link": "" }],
+  "contactDetails": {
+    "address": "Vasai, Koliwada Killabunder, Langebunder 1, Manbhat House, Vasai(W)-401201 ",
+    "email": "princewelmanbhat@gmail.com",
+    "phone": "8600051839",
+    "portfolioPage": ""
+  },
+  "volunteering": [{ "title": "", "other": "", "link": "" }],
+  "social": {
+    "linkedIn": "",
+    "github": ""
+  },
+  "projectundertaken": [
+    {
+      "tittle": "Smart Robot for Spraying Pesticides on Plants",
+      "info": "In this project we developed A smart robot for using it to spray the pesticides on the plants and help humans to not come in direct contact with the fumes emitted by the spray. The person spraying the pesticides generally sprays the same amount of pesticides on the plant regardless of the size of the plant in question. This may adversely affect the plants in many different ways."
+    },
+    {
+      "tittle": "Face Mask Detection ",
+      "info": "To a develop technique that can accurately detect mask over the face in public areas (such as airports. railway stations, crowded markets, bus stops, etc.) to curtail the spread of Coronavirus and thereby contributing to public healthcare. A real-time system to detect whether the person on the webcam is wearing a mask or not."
+    }
+  ]
+}

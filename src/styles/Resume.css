@@ -1,0 +1,43 @@
+.resume {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  width: 100%;
+}
+
+.name {
+  float: left;
+  margin-right: 50px;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.09);
+  padding-left: 20px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+h2 {
+  color: #1995f5;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+hr {
+  height: 3px;
+  background-color: #1995f5;
+  border: none;
+}
+
+.resume section ul li {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.resume {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
