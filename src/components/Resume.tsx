@@ -14,6 +14,7 @@ const Resume: React.FC<{ data: ResumeData }> = ({ data }) => {
   } = data;
   return (
     <div className="resume">
+      <h1 style={{ alignItems: "center" }}>RESUME</h1>
       <div className="name">
         <h1 style={{ textAlign: "center" }}>{name}</h1>
         <h2>OBJECTIVE</h2>
