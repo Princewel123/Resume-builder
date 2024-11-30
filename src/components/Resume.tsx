@@ -20,7 +20,7 @@ const Resume: React.FC<{ data: ResumeData }> = ({ data }) => {
         <p>{oneLineDescription}</p>
 
         <section>
-          <h2>TECHNICAL SKILLS</h2>
+          <h2>TECHNICAL</h2>
           <ul>
             {skillset.map(({ title, proficiency }, index) => (
               <li key={index}>
