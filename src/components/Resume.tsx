@@ -4,7 +4,6 @@ import "../styles/Resume.css";
 
 const Resume: React.FC<{ data: ResumeData }> = ({ data }) => {
   const {
-    name,
     oneLineDescription,
     contactDetails,
     skillset,
@@ -13,7 +12,7 @@ const Resume: React.FC<{ data: ResumeData }> = ({ data }) => {
     experiences,
   } = data;
 
-  const [name1, setName1] = useState(data.name);
+  const [name, setName] = useState(data.name);
 
   return (
     <div className="resume">
@@ -21,8 +20,8 @@ const Resume: React.FC<{ data: ResumeData }> = ({ data }) => {
       <div className="name">
         <input
           type="text"
-          value={name1}
-          onChange={(e) => setName1(e.target.value)}
+          value={name}
+          onChange={(e) => setName(e.target.value)}
           style={{
             textAlign: "center",
             fontSize: "24px",
@@ -31,7 +30,6 @@ const Resume: React.FC<{ data: ResumeData }> = ({ data }) => {
             marginBottom: "10px",
           }}
         />
-        <h1 style={{ textAlign: "center" }}>{name}</h1>
         <h2>OBJECTIVE</h2>
         <p>{oneLineDescription}</p>
 
