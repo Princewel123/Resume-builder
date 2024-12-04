@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { ResumeData } from "../interfaces/ResumeData";
 import "../styles/Resume.css";
 
@@ -12,10 +12,25 @@ const Resume: React.FC<{ data: ResumeData }> = ({ data }) => {
     education,
     experiences,
   } = data;
+
+  const [name1, setName1] = useState(data.name);
+
   return (
     <div className="resume">
       <h1 style={{ alignItems: "center" }}>RESUME1</h1>
       <div className="name">
+        <input
+          type="text"
+          value={name1}
+          onChange={(e) => setName1(e.target.value)}
+          style={{
+            textAlign: "center",
+            fontSize: "24px",
+            fontWeight: "bold",
+            width: "100%",
+            marginBottom: "10px",
+          }}
+        />
         <h1 style={{ textAlign: "center" }}>{name}</h1>
         <h2>OBJECTIVE</h2>
         <p>{oneLineDescription}</p>
